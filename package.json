@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/LandonDvong/web-sprint-challenge-adding-data-persistence#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "helmet": "^4.1.0",
+    "knex": "^0.21.5",
+    "nodemon": "^2.0.4",
+    "sqlite3": "^5.0.0"
   }
 }
