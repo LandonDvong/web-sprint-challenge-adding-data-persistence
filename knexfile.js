@@ -1,5 +1,5 @@
 // Update with your config settings.
-
+let knex = require("knex")
 module.exports = {
 
   development: {
@@ -7,6 +7,8 @@ module.exports = {
     connection: {
       filename: './data/projects.db3',
     },
+    useNullAsDefault: true,
+
     migrations: {
       directory: "./data/migrations",
     },
